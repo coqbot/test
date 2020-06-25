@@ -1,0 +1,8 @@
+foo:
+  script:
+    echo "OK"
+
+bar:
+  allow_failure: true
+  script:
+    exit 1
